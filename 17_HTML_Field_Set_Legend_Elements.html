@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fieldset Legend</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        table{
+            width: 100%;
+            font-size: 20px;
+        }
+        td{
+            padding: 10px;
+        }
+        fieldset{
+            border: 2px solid orangered;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+        legend{
+            background-color: orangered;
+            color: white;
+            padding: 14px 25px;
+            border: 2px solid white;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label>First Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Father's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <label>Mother's Name</label>
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <!-- Education Details -->
+        <fieldset>
+            <legend>Education Details</legend>
+            <table>
+                <tr>
+                    <td>SNO</td>
+                    <td>Qualification</td>
+                    <td>Institute / University</td>
+                    <td>Year Of Passing</td>
+                    <td>Marks (%)</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="month">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="month">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="text">
+                    </td>
+                    <td>
+                        <input type="month">
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="100">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+    </form>
+
+</body>
+</html>

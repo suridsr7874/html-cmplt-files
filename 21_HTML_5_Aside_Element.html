@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Aside Element</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        aside{
+            background-image: url("../background1.jpg");
+            float: left;
+            width: 250px;
+            text-align: center;
+            position: fixed;
+            height: 100%;
+            box-shadow: 0 0 10px black;
+            display: block;
+        }
+        aside a{
+            display: block;
+            padding: 20px 25px;
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        aside a:hover{
+            background-color: lightsalmon;
+        }
+        aside img{
+            width: 120px;
+            height: 120px;
+            margin-top: 50px;
+            border-radius: 50%;
+            border: 10px solid lightsalmon;
+            box-shadow: 0 0 10px black;
+        }
+        section{
+            margin-left: 250px;
+        }
+        section article{
+            margin-left: 20px;
+        }
+        nav{
+            background-color: black;
+            padding: 5px;
+            box-shadow: 0 0 10px black;
+        }
+        nav a{
+
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+            padding: 0 0 10px;
+            display: inline-block;
+
+        }
+        nav a.active{
+            background-color:red;
+        }
+        nav a:hover{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <a href="#" class="active">home</a>
+    <a href="#">about us</a>
+    <a href="#">contact us</a>
+    <a href="#">carrier</a>
+</nav>
+    <!-- HTML Aside Element -->
+    <aside>
+        <img src="../abc.jpg">
+        <a href="#html">html</a>
+        <a href="#css">css</a>
+        <a href="#javascript">javascript</a>
+        <a href="#jquery">jquery</a>
+        <a href="#bootstrap">bootstrap</a>
+        <a href="#angular">angular</a>
+    </aside>
+<section>
+    <article id="html">
+        <h2> html</h2>
+        <p span style="color: red">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.
+   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+       eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.</p>
+
+
+    </article>
+
+    <article id="css">
+        <h2> css</h2>
+        <p span style="color:blue" >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.
+
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.</p>
+    </article>
+    <article id="javascript">
+        <h2> javascript</h2>
+        <p span style="color:orangered">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.</p>
+    </article>
+    <article id="jquery">
+        <h2> jquery</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.</p>
+    </article>
+    <article id="bootstrap">
+        <h2> bootstrap</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Dolore doloremque illum maiores minus nostrum optio rem sed sit vel, voluptate.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis dolorem,
+            eum maiores placeat reiciendis repellendus repudiandae sed vero vitae.</p>
+    </article>
+</section>
+</body>
+</html>

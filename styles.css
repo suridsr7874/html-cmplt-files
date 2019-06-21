@@ -1,0 +1,62 @@
+body{
+    font-family: "Comic Sans MS", sans-serif;
+    background-image: url("../abc.jpg");
+    color: white;
+    background-attachment: fixed;
+}
+table{
+    width: 100%;
+    font-size: 25px;
+}
+td{
+    padding:5px;
+    border-radius: 10px;
+}
+legend{
+    background-color: blue;
+    color: red;
+    border-radius: 10px;
+    box-shadow:0 0 10px blue;
+    font-size: 25px;
+    border: 3px chartreuse;
+}
+fieldset{
+    border: 3px blue;
+    padding: 6px;
+    box-shadow:0 0 10px black;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h1{
+    text-align: center;
+    background:linear-gradient(to right, green,yellow,red);
+    text-shadow: 0 0 5px red;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.button{
+    color: red;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.button hover{
+    box-shadow: 0 0 5px salmon;
+}
+textarea{
+    border: none;
+    border-radius: 10px;
+}
+input[type='text']:focus,
+input[type='datet']:focus,
+input[type='time']:focus,
+input[type='month']:focus
+input[type='number']:focus,
+textarea:focus{
+    background-color: red;
+    box-shadow: 0 0 10px blue;
+    border-top-right-radius: 10px;
+}
+text {
+    border-radius: 10px;
+}
